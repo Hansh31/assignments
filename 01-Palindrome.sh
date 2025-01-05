@@ -2,7 +2,7 @@
 
 echo "Enter a string:"
 read str
-rev=$(expr $str)
+rev=$(expr $str|rev)
 echo "result :$rev"
 if  [ $str == $rev ]; then
      echo "this is Palindrome"
