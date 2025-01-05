@@ -3,4 +3,4 @@
 echo "Enter a string:"
 read str
 rev=$(expr $str|rev)
-echo "result :$rev )
+echo "result :$rev"
